@@ -1,0 +1,77 @@
+.App {
+  color: #fff !important;
+}
+
+.App-header {
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white !important;
+}
+.App-header .input-group{
+  margin-top: 5vh;
+}
+
+.App-header h1{
+  text-align: center;
+}
+.App-header h1 span{
+  color: #ff0000;
+  font-size: 12px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.App .list .table{
+  color: #fff !important;
+  width: 500px;
+  margin-top: 5vh;
+  transition: 0.5s ease;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout:fixed;
+}
+
+.App .list .countries{
+  overflow: auto;
+  height: 70vh;
+  margin-top: 5vh;
+}
+
+.App .list .countries::-webkit-scrollbar{
+  width:12px;
+  background-color:transparent;
+}
+.App .list .countries::-webkit-scrollbar:horizontal{
+  height:12px;
+}
+.App .list .countries::-webkit-scrollbar-track{
+  border:1px black solid;
+  border-radius:10px;
+  -webkit-box-shadow:0 0 6px black inset;
+}
+.App .list .countries::-webkit-scrollbar-thumb{
+  background-color:#b03c3f;
+  border:1px solid #000000;
+  border-radius:16px;
+}
+.App .list .countries::-webkit-scrollbar-thumb:hover{
+  background-color:#bf4649;
+  border:1px solid #333333;
+}
+.App .list .countries::-webkit-scrollbar-thumb:active{
+  background-color:#a6393d;
+  border:1px solid #333333;
+}
+
+.App .list .table img{
+  width: 55% !important;
+}
+
+.App .list .table tr td{
+  margin: 30px;
+}
+
+
