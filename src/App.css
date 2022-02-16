@@ -16,6 +16,14 @@
 .App-header h1{
   text-align: center;
 }
+.App-header h2{
+  font-size: 15px;
+  text-align: center;
+}
+.App-header h2 span{
+  color: #ff0000;
+
+}
 .App-header h1 span{
   color: #ff0000;
   font-size: 12px;
@@ -74,4 +82,7 @@
   margin: 30px;
 }
 
+.App .dropdown{
+  cursor: pointer;
+}
 
